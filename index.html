@@ -1,10 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Vidya Gawade</title>
+  <title>Vidya Gawade | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #162A3F, #5FA0EC);
+      color: #FEFEFE;
+      text-align: center;
+    }
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+    .card {
+      max-width: 750px;
+      padding: 45px;
+      border-radius: 25px;
+      background: rgba(255,255,255,0.12);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    }
+    h1 { font-size: 48px; margin-bottom: 10px; }
+    h2 { color: #dbeeff; }
+    p { font-size: 18px; line-height: 1.7; }
+    .skills span {
+      display: inline-block;
+      margin: 8px;
+      padding: 10px 16px;
+      border-radius: 20px;
+      background: #FEFEFE;
+      color: #162A3F;
+      font-weight: bold;
+    }
+    a {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      border-radius: 30px;
+      background: #FEFEFE;
+      color: #162A3F;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my GitHub Pages website.</p>
+
+  <section class="hero">
+    <div class="card">
+      <h1>Hi, I'm Vidya Gawade 👋</h1>
+      <h2>MCA Student | Full Stack Developer | QA Automation Learner</h2>
+      <p>
+        I am passionate about building modern web applications using Java,
+        Spring Boot, React, MySQL, Git, and Automation Testing.
+        I enjoy learning new technologies and creating real-world projects.
+      </p>
+
+      <div class="skills">
+        <span>Java</span>
+        <span>Spring Boot</span>
+        <span>React</span>
+        <span>MySQL</span>
+        <span>GitHub</span>
+        <span>QA Testing</span>
+      </div>
+
+      <a href="mailto:gawadevidya22@gmail.com">Contact Me</a>
+    </div>
+  </section>
+
 </body>
 </html>
